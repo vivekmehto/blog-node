@@ -1,7 +1,7 @@
 import "./App.css";
-import config from "./config/config";
+import conf from "./conf/conf";
 function App() {
-  console.log(config.appwriteUrl);
+  console.log(conf.appwriteUrl);
   return (
     <>
       <h1>BlogNode with Appwrite</h1>
